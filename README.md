@@ -1,5 +1,5 @@
 # PhoneShop_Java
-Ung dung ban dien thoai duoc viet tren ngon ngu Java
+Ung dung ban dien thoai duoc viet tren ngon ngu Java va IDE Android Studio
 # Chức năng và nghiệp vụ của PhoneShop
 Phần mềm quản lý bán điện thoại:
 - Đăng nhập hệ thống
