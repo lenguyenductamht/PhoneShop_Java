@@ -18,3 +18,7 @@ Phần mềm quản lý bán điện thoại:
 #Hướng dẫn đăng nhập
 - Tên tài khoản: lenguyenductamcn@gmail.com
 - Mật khẩu: 123456
+#  Demo
+Click ảnh để xem demo ⇓
+
+[![Watch the video](https://drive.google.com/file/d/1dMIWYNYzwIfNRWkC3Lw6AhwMa1KfX23R/view?usp=sharing)](https://drive.google.com/file/d/1aKhafRPlew-E15GAoXGDVWNsZ_2YLby3/view?usp=sharing)
