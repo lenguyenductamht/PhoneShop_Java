@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CẬP NHẬT"
+        android:textSize="27sp"
+        android:textColor="#212121"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÔNG TIN TÀI KHOẢN"
+        android:textSize="27sp"
+        android:textColor="#212121"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="Tên người dùng"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="1dp"
+                android:id="@+id/edit_TenNguoiDung"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/circle" />
+            <TextView
+                android:gravity="center|left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_marginTop="1dp"
+                android:id="@+id/edit_Email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/circle" />
+            <TextView
+                android:gravity="center|left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Số điện thoại"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_marginTop="1dp"
+                android:id="@+id/edit_Sdt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/circle" />
+            <TextView
+                android:gravity="center|left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Địa chỉ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_marginTop="1dp"
+                android:id="@+id/edit_DiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/circle" />
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btn_XacNhan"
+                android:text="Xác nhận"
+                android:background="@drawable/btn_yl_circle"
+                android:textSize="20dp"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

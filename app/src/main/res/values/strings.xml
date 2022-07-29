@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">TTShop</string>
+    <string name="Open">TTShop</string>
+    <string name="Close">TTShop</string>
+    <string name="text_search">Tìm kiếm</string>
+    <string name="them_khach_hang">Thêm khách hàng</string>
+
+    <string name="text_nike">NIKE</string>
+    <string name="main">Main</string>
+    <string name="txt_sp">Sản Phẩm</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_account">Tài khoản</string>
+    <string name="nhap_tk">Nhập tài khoản</string>
+    <string name="nhap_pw">Nhập mật khẩu</string>
+    <string name="quenmatkhau">Quên mật khẩu ?</string>
+    <string name="btnDangnhap">Đăng nhập</string>
+    <string name="dangkitaikhoan">Bạn chưa có tài khoản? Hãy đăng kí.</string>
+
+    <string name="signup_hoten">Nhập họ và tên</string>
+    <string name="signup_diachi">Nhập địa chỉ</string>
+    <string name="signup_sdt"> Nhập số điện thoại</string>
+    <string name="signup_email">Nhập email</string>
+    <string name="signup_nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="signup_dangki">Đăng kí</string>
+    <string name="signup_dangnhaplai">Bạn đã có tài khoản? Hãy đăng nhập.</string>
+
+    <string name="nav_header_title">TT Shop</string>
+    <string name="nav_header_subtitle">lenguyenductamcn@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="tensanpham">Điện thoại OPPO Reno7</string>
+    <string name="gia">8.990.000đ</string>
+    <string name="chitietsanpham">Thông số kỹ thuật</string>
+    <string name="motasanpham">Mô tả sản phẩm</string>
+    <string name="mausac">Màu sắc</string>
+    <string name="soluongsp">Số lượng</string>
+    <string name="thongtinsanpham">- Mã sản phẩm: </string>
+
+    <string name="maudo">Đỏ</string>
+    <string name="mauhong">Hồng</string>
+    <string name="mauden">Đen</string>
+    <string name="mautrang">Trắng</string>
+    <string name="mauxanh">Xanh</string>
+    <string name="maugold">Gold</string>
+    <string name="dathang">Thêm vào giỏ hàng</string>
+
+    <string name="text_quenmk">Bạn quên mật khẩu?</string>
+    <string name="text_quenmk2">Vui lòng cung cấp email đã đăng kí.</string>
+    <string name="txtmuangay">Mua ngay</string>
+    <string name="str_tvScreen">Màn hình:</string>
+    <string name="str_tvOS">Hệ điều hành:</string>
+    <string name="str_tvBachCam">Camera sau:</string>
+    <string name="str_tvFrontCam">Camera trước:</string>
+    <string name="str_tvChip">Chip:</string>
+    <string name="str_tvRam">RAM:</string>
+    <string name="str_tvRom">Bộ nhớ trong:</string>
+    <string name="str_tvSim">SIM:</string>
+    <string name="str_tvPin">Pin:</string>
+    <string name="map_api_key">AIzaSyCdA01Hon7Lzzml1DxBQGKKc15zbUa5mQY</string>
+    <string name="store1">140 Lê Trọng Tấn, Tây Thạnh, Tân Phú, HCM</string>
+    <string name="store2">48/9C Lương Thế Vinh, Tân Thới Hòa, Tân Phú, HCM</string>
+    <string name="tvStoreList">HỆ THỐNG CỬA ĐIỆN THOẠI DI ĐỘNG TTSHOP</string>
+    <string name="facebook_app_id">722071119129272</string>
+    <string name="facebook_client_token">263c6e409bed5816048b0857d59fc79e</string>
+
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">MapActivity</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_top">
+        <item android:id="@+id/category"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Danh mục sản phẩm"/>
+        <item android:id="@+id/khuyenMai"
+            android:icon="@drawable/ic_style_black_24dp"
+            android:title="Khuyến mãi"/>
+
+        <item android:id="@+id/thongKe"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Thống kê đơn hàng"/>
+        <item android:id="@+id/map"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Hệ thống cửa hàng"/>
+
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_bottom">
+        <item android:id="@+id/dangxuat"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Đăng xuất"/>
+    </group>
+</menu>

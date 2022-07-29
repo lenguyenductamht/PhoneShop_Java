@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phoneapp.CustomerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/sodienthoaiKH"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/baseline_call_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Số điện thoại khách hàng"
+            android:padding="10dp"
+            android:textColorHighlight="#dce775"
+            android:textSize="20sp"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/hotenKH"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/sodienthoaiKH"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/signup_hoten"
+
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHighlight="#dce775"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/diachiKH"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/hotenKH"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/baseline_location_on_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/signup_diachi"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHighlight="#dce775"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/emailKH"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/diachiKH"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_edittext"
+            android:drawableStart="@drawable/baseline_email_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/signup_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHighlight="#dce775"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btnThemKH"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/emailKH"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_pressed"
+            android:text="Thêm khách hàng"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

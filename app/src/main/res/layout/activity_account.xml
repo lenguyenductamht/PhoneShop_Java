@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountActivity"
+    android:background="#ffffff"
+    android:id="@+id/account_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="4">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avt_account"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ic_account_circle_black_24dp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:layout_marginTop="60dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="6">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="4"
+                    android:layout_weight="1">
+                    <TextView
+                        android:drawableStart="@drawable/baseline_info_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Thông tin tài khoản"
+                        android:layout_weight="2.5"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn_ChinhSua"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:background="#ffffff"
+                        android:drawableRight="@drawable/ic_next"
+                        android:drawablePadding="10dp"
+                        android:gravity="center|right"
+                        android:text="Chỉnh sửa"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+                    <TextView
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center|left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Tên người dùng"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/edit_TenNguoiDung"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|right"
+                        android:text="Xuat dl"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+                    <TextView
+                        android:drawableStart="@drawable/baseline_email_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Email"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/edit_EmailNguoiDung"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center|right"
+                        android:text="Xuat dl"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_weight="1.5">
+                    <TextView
+                        android:drawableStart="@drawable/baseline_location_on_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center|left"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Địa chỉ"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/edit_DiaChi"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center|right"
+                        android:text="Xuat dl"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="67dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableStart="@drawable/baseline_call_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center|left"
+                        android:text="Số điện thoại"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/edit_Sdt"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center|right"
+                        android:text="Xuat dl"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:id="@+id/btn_XacNhan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Chọn Ảnh"
+                    android:background="@drawable/btn_yl_circle"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

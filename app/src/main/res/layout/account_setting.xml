@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:background="@drawable/vien"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:id="@+id/btn_HoSo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vien"
+            android:drawableEnd="@drawable/ic_next"
+            android:drawablePadding="10dp"
+            android:text="Hồ sơ của tôi"
+            android:textAlignment="textStart"
+            android:paddingLeft="10dp"
+            android:textAllCaps="false"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/vien"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:drawableStart="@drawable/ic_key"
+            android:id="@+id/btn_DoiMK"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vien"
+            android:text="Đổi mật khẩu"
+            android:textSize="18dp"
+            android:textAlignment="textStart"
+            android:drawableEnd="@drawable/ic_next"
+            android:drawablePadding="10dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>
+

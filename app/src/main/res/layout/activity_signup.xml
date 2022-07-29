@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_login2">
+
+            <RelativeLayout
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgNguoiDung"
+                    android:layout_width="206dp"
+                    android:layout_height="70dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/imagedangki" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="350dp">
+
+            </RelativeLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln1"
+                android:layout_below="@+id/imageView1">
+                <RelativeLayout
+                    android:id="@+id/re2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/botron_signup"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <EditText
+                        android:id="@+id/signin_hoten"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_edittext"
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/signup_hoten"
+
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textColorHighlight="#dce775"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/signin_diachi"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/signin_hoten"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_edittext"
+                        android:drawableStart="@drawable/baseline_location_on_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/signup_diachi"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textColorHighlight="#dce775"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/signin_sodienthoai"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/signin_diachi"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_edittext"
+                        android:drawableStart="@drawable/baseline_call_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/signup_sdt"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textColorHighlight="#dce775"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/signin_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/signin_sodienthoai"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_edittext"
+                        android:drawableStart="@drawable/baseline_email_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/signup_email"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:textColorHighlight="#dce775"
+                        android:textSize="20sp" />
+                    <EditText
+                        android:id="@+id/signin_matkhau"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/baseline_lock_black_24dp"
+                        android:background="@drawable/border_edittext"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        android:textColorHighlight="#dce775"
+                        android:hint="@string/nhap_pw"
+                        android:layout_below="@+id/signin_email"
+                        android:inputType="textPassword"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"/>
+                    <EditText
+                        android:id="@+id/signin_nhaplaimatkhau"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/baseline_lock_black_24dp"
+                        android:background="@drawable/border_edittext"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        android:textColorHighlight="#dce775"
+                        android:hint="@string/signup_nhaplaimatkhau"
+                        android:layout_below="@+id/signin_matkhau"
+                        android:inputType="textPassword"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"/>
+                    <Button
+                        android:id="@+id/btnDangKi"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/signin_nhaplaimatkhau"
+                        android:text="@string/signup_dangki"
+                        android:background="@drawable/button_pressed"
+                        android:layout_marginBottom="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:textSize="18dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/dangnhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signup_dangnhaplai"
+                android:textSize="16sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_below="@+id/ln1"
+                android:textColor="@drawable/mau_textview"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/botron"></RelativeLayout>
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="150dp"
+        android:layout_height="237dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/imgdelete"
+        />
+    <TextView
+        android:id="@+id/txtxacnhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Xác nhận xóa sản phẩm"
+        android:layout_below="@id/imgDelete"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/txtchacchan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtxacnhan"
+
+        android:layout_marginLeft="60dp"
+        android:text="Bạn có chắc là muốn xóa sản phẩm này không?"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+    <LinearLayout
+        android:layout_below="@+id/txtchacchan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/btnCo"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Có"
+            android:textColor="#000000"
+            android:background="@drawable/btnformxoa2"
+            android:layout_marginRight="16dp"/>
+        <Button
+            android:id="@+id/btnKhong"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Không"
+            android:textColor="#ffffff"
+            android:background="@drawable/btnformxoa1" />
+
+    </LinearLayout>
+</RelativeLayout>
